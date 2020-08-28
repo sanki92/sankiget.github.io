@@ -1,0 +1,51 @@
+body {
+	background-image: url('img/cherry.jpg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	border:5px solid white;
+}
+  img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+  height: 200px;
+  position: relative;
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+  .button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #f58cbb;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #fa57a0}
+
+.button:active {
+  background-color: #fa57a0;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+h3 {
+	background-color:white;
+	text-align:center;
+	color:#f58cbb;
+	font-size:30px;
+}
